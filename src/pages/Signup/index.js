@@ -80,7 +80,9 @@ export default function Signup() {
             Sua ID de conexão: ${response.data.id}`,
           {
             position: toast.POSITION.TOP_RIGHT,
-            autoClose: false
+            autoClose: 8000,
+            autoClose: false,
+            draggable: false
           }
         );
 
