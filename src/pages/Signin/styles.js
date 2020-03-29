@@ -1,5 +1,8 @@
 import styled from "styled-components";
+
+import { Link } from "react-router-dom";
 import { FiLogIn } from "react-icons/fi";
+
 export const Container = styled.div`
   width: 100%;
   max-width: 1120px;
@@ -8,7 +11,7 @@ export const Container = styled.div`
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 `;
 
 export const Section = styled.section`
@@ -25,6 +28,13 @@ export const Title = styled.h1`
   color: #222a;
   font-size: 34px;
   margin-bottom: 32px;
+`;
+
+export const Description = styled.h4`
+  color: #333e;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 `;
 
 export const InputID = styled.input`
@@ -48,7 +58,7 @@ export const ButtonSubmit = styled.button.attrs({ type: "submit" })`
   line-height: 60px;
 `;
 
-export const SignupLink = styled.a.attrs({ href: "/register" })`
+export const SignupLink = styled(Link)`
   display: flex;
   align-items: center;
   margin-top: 40px;

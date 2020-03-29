@@ -1,7 +1,7 @@
 import React from "react";
 import "./global.css";
-import Signin from "./pages/Signin";
+import Routes from "./routes";
 
 export default function App() {
-  return <Signin />;
+  return <Routes />;
 }
