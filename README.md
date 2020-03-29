@@ -1,17 +1,7 @@
-## Front-end web Be The Hero!
-<div>
-  <span>React js aplication for ONGs associations share cases from their areas and look for heroes to help that</span>
-  <span align="center">
-</div>
 
+## Frontend Be The Hero!
 <p align="center">
- 
-  <a aria-label="React Version" href="https://github.com/facebook/react/blob/master/CHANGELOG.md#16120-november-14-2019">
-    <img src="https://img.shields.io/badge/react-16.13.0-informational?logo=react"></img>
-  </a> 
-  <a align="center>
-  
-
+<strong>React js aplication for ONGs associations share cases from their areas and look for heroes to help that</strong>
   
 <p>The application have the navigations routes</p>
   <ul>
@@ -21,9 +11,12 @@
   </ul>
 </p> 
 
- 
+</p>
+<p align="center">
   
-  
+  <a aria-label="React Version" href="https://github.com/facebook/react/blob/master/CHANGELOG.md#16120-november-14-2019">
+    <img src="https://img.shields.io/badge/react-16.13.0-informational?logo=react"></img>
+  </a>
 
 </p>
 
