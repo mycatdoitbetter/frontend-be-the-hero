@@ -12,7 +12,7 @@
 
 To init the Frontend aplication in React, do the follow lines:
 ```bash
-cd web-devfinder
+cd frontend-be-the-hero
 yarn install
 yarn start
 ```
