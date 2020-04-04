@@ -9,7 +9,9 @@
     <li>Signup</li>
     <li>Incident register</li>
   </ul>
-</p> 
+</p>
+
+<span>I've used the Imsomnia to manage the routes, you can access the <a href="https://github.com/mycatdoitbetter/frontend-be-the-hero/blob/master/demo/Insomnia%20Be%20the%20hero%20JSON.json">configuration file</a> here</span>
 
 </p>
 <p align="center">
