@@ -72,6 +72,7 @@ export default function Signup() {
     e.preventDefault();
     if (checkForm(name, email, whatsapp, city, uf)) {
       const data = { name, email, whatsapp, city, uf };
+      console.warn(data);
       try {
         const response = await api.post("/ongs", data);
 
@@ -81,7 +82,7 @@ export default function Signup() {
           {
             position: toast.POSITION.TOP_RIGHT,
             autoClose: 8000,
-            autoClose: false,
+
             draggable: false
           }
         );
@@ -89,7 +90,15 @@ export default function Signup() {
         history.push("/");
       } catch (error) {
         console.log(error);
-        alert(`Não foi possivel realizar o cadastro. ${error}`);
+        toast.error(
+          `Não foi possivel realizar o cadastro, verifique seus dados.`,
+          {
+            position: toast.POSITION.TOP_RIGHT,
+            autoClose: 8000,
+
+            draggable: false
+          }
+        );
       }
     }
   }
