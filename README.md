@@ -1,5 +1,5 @@
 
-## Frontend Be The Hero!
+<h1 align="center"> Be The Hero! </h1>
 <p align="center">
 <strong>React js aplication for ONGs associations share cases from their areas and look for heroes to help that</strong>
   
